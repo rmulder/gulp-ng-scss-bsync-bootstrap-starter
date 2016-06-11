@@ -1,0 +1,19 @@
+<div class="container home-view">
+  <h4 class="text-xs-center"><i class="icon-lightbulb"></i>&nbsp;My Log page<i class="fa fa-camera-retro"></i></h4>
+  <div class="form-wrapper">name
+    <form class="form-cisco" name="login">
+      <div class="form-group" data-ng-class="{'has-danger': (login.userid.$dirty && login.userid.$invalid)}">
+        <input type="text" class="form-control" name="userId" id="userId" placeholder="User Id" data-ng-required="true">
+        <label for="userId"></label>
+      </div>
+      <div class="form-control-help">User id is required field</div>
+      <div class="form-group">
+        <input type="password" class="form-control" id="password">
+        <label for="password"></label>
+      </div>
+      <div class="text-lg-right">
+        <button type="submit" class="btn btn-primary">Login</button>
+      </div>
+    </form>
+  </div>
+</div>

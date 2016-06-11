@@ -1,0 +1,10 @@
+bower_components
+node_modules
+.tmp
+dist
+*.iml
+reports
+
+.idea/
+
+app/components/

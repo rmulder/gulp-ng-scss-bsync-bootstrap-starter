@@ -1,0 +1,21 @@
+{
+  "header": {
+    "appName": "Move Guide Application",
+    "headerHome": "Home",
+    "headerBrowseByFunction": "Browse By Business Function",
+    "headerMySubscription": "My Subscriptions"
+  },
+  "footer": {
+    "brandCopyRight": "Cisco Systems, Inc. Cisco Confidential. {{versionText}}",
+    "brandCopyRightSmall": "Cisco Systems, Inc. Cisco Confidential. <br> {{versionText}}",
+    "about": "About",
+    "help": "Help",
+    "support&feedback": "Support and Feedback"
+  },
+  "home": {
+    "headingPopularPolices": "Popular Policies",
+    "headingImportantLinks": "Important Links",
+    "ieBrowserMessage" : "Application is best viewed in Firefox, Chrome and Safari"
+
+  }
+}

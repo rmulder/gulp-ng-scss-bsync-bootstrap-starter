@@ -1,7 +1,7 @@
 {
-  "name": "move-guides",
+  "name": "abc-hr",
   "version": "1.0.0",
-  "description": "Move guides employee location finder",
+  "description": "ABC HR employee location finder",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

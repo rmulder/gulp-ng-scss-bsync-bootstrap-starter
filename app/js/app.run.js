@@ -3,7 +3,7 @@
 
     /**
      * @ngdoc Application run phase 
-     * @name Move Guide
+     * @name ABC HR
      * @description
      *
      * Main module of the application.

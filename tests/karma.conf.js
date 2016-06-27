@@ -52,7 +52,7 @@ module.exports = function (config) {
             templatePath: null,
             focusOnFailures: true,
             namedFiles: false,
-            pageTitle: 'Move Guides UI Unit Tests',
+            pageTitle: 'ABC HR UI Unit Tests',
             urlFriendlyName: false,
 
             preserveDescribeNesting: true,

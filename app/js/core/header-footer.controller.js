@@ -7,7 +7,7 @@
      * @description A slick common header footer controller
      *
      */
-    angular.module('reobeAppCore')
+    angular.module('portalAppCore')
         .controller('HeaderFooterController', headerFooterController);
     
     headerFooterController.$inject = ['$scope', '$q'];
@@ -15,6 +15,6 @@
     function headerFooterController($scope, $q) {
         var vm = this;
 
-        vm.appHomeTitle = 'REOBE Home';
+        vm.appHomeTitle = 'Status Portal Home';
     }
 })();

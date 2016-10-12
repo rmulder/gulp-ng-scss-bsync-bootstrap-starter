@@ -8,7 +8,7 @@
    * # PropertyViewController
    *
    */
-  angular.module('reobeAppHome')
+  angular.module('portalAppHome')
       .controller('DetailsViewController', detailsController);
   detailsController.$inject = ['$scope', '$q'];
 

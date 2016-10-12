@@ -1,7 +1,7 @@
 (function () {
 
     'use strict';
-    angular.module('reobeAppCore')
+    angular.module('portalAppCore')
         .service('Utilities', utilities);
 
 

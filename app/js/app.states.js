@@ -1,16 +1,16 @@
 (function () {
   'use strict';
-  angular.module('reobeApp').config(configureAppStates);
+  angular.module('portalApp').config(configureAppStates);
 
   configureAppStates.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
   function configureAppStates($stateProvider, $urlRouterProvider, $locationProvider) {
 
     $locationProvider.html5Mode({enabled: false, requireBase: false});
     $urlRouterProvider.when('', '/');
-    $urlRouterProvider.when('/', '/reobe/login');
-    $stateProvider.state('reobe', {
+    $urlRouterProvider.when('/', '/portal/login');
+    $stateProvider.state('portal', {
       abstract: true,
-      url: '/reobe/',
+      url: '/portal/',
       resolve: {},
       params: {
         headerClass: ''
@@ -34,7 +34,7 @@
       onEnter: function () {
         console.log('state : app : Enter.....');
       }
-    }).state('reobe.login', {
+    }).state('portal.login', {
       url: 'login',
       params: {
           headerClass: ''
@@ -49,7 +49,7 @@
           console.log('state : app->login : Enter.....', this);
       }
     })
-    .state('reobe.home', {
+    .state('portal.home', {
       url: 'home',
       params: {
         headerClass: ''
@@ -64,7 +64,7 @@
         console.log('state : app->home : Enter.....', this);
       }
     })
-    .state('reobe.details', {
+    .state('portal.details', {
       url: 'details',
       params: {
         headerClass: ''

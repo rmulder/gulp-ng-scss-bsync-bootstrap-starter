@@ -3,12 +3,12 @@
 
   /**
    * @ngdoc function
-   * @name ListViewController
-   * @description List view controller
-   * # ListViewController
+   * @name LoginViewController
+   * @description Login view controller
+   * # LoginViewController
    *
    */
-  angular.module('reobeAppHome')
+  angular.module('portalAppHome')
       .controller('LoginViewController', loginController);
   loginController.$inject = ['$scope', '$q'];
 

@@ -1,7 +1,7 @@
 'use strict';
 
-describe('reobeAppHome:HomeViewController', function () {
-  beforeEach(module('reobeAppHome'));
+describe('portalAppHome:HomeViewController', function () {
+  beforeEach(module('portalAppHome'));
   var rootScope, scope, ctrl, $q;
 
   describe('HomeViewController', function () {
@@ -14,7 +14,7 @@ describe('reobeAppHome:HomeViewController', function () {
     it('initialise HomeController ', inject(function ($controller) {
       ctrl = $controller('HomeViewController', {$scope: scope});
       expect(ctrl.appHomeTitle).toBeDefined();
-      expect(ctrl.appHomeTitle).toBe('REOBE Home');
+      expect(ctrl.appHomeTitle).toBe('Status Portal Home');
     }));
   });
 });

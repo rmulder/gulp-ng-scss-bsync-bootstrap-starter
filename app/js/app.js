@@ -3,17 +3,17 @@
   //Empty template module used in build process to generate js file from html files
   angular.module('templates', []);
 
-  angular.module('reobeAppCore', []);
+  angular.module('portalAppCore', []);
 
-  angular.module('reobeAppHome', ['reobeAppCore']);
+  angular.module('portalAppHome', ['portalAppCore']);
 
   //Main app
-  angular.module('reobeApp', [
+  angular.module('portalApp', [
     'templates',
     'ui.router',
     'pascalprecht.translate',
     'ui.bootstrap',
     'ngSanitize',
-    'reobeAppHome'
+    'portalAppHome'
   ]);
 })();

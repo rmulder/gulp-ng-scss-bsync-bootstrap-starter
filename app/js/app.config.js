@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    angular.module('reobeApp')
+    angular.module('portalApp')
         .config(configureTranslate);
 
     configureTranslate.$inject = ['$translateProvider'];

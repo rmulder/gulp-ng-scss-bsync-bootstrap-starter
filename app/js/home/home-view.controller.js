@@ -8,7 +8,7 @@
    * # HomeViewController
    *
    */
-  angular.module('reobeAppHome')
+  angular.module('portalAppHome')
       .controller('HomeViewController', homeController);
   homeController.$inject = ['$scope', '$q'];
 

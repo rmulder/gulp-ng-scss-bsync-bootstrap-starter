@@ -3,12 +3,12 @@
 
   /**
    * @ngdoc Application run phase
-   * @name REOBE
+   * @name Status Portal
    * @description
    *
    * Main module of the application.
    */
-  angular.module('reobeApp')
+  angular.module('portalApp')
       .run(initializeAppNameSpace)
       .run(registerStateTracker)
       .run(registerGlobalEvents);

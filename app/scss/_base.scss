@@ -3,6 +3,6 @@ $font-path: '../fonts/';
 
 $fa-font-path:   '../fonts';
 
-@import 'bootstrap';
+@import '../../bower_components/bootstrap/scss/bootstrap';
 
-@import 'font-awesome';
+@import '../../bower_components/font-awesome/scss/font-awesome';

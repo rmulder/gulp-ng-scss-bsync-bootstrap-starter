@@ -1,9 +1,9 @@
 {
-  "name": "abc-hr",
+  "name": "angular-gulp-bower",
   "version": "1.0.0",
-  "description": "ABC HR employee location finder",
+  "description": "Angular-Gulp-Bower sample project",
   "authors": [
-    "Rajendra M"
+    "Robert Mulder"
   ],
   "dependencies": {
     "es5-shim": "~4.5.8",

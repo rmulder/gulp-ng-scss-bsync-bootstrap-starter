@@ -1,23 +1,19 @@
 (function () {
-    'use strict';
-    //Empty template module used in build process to generate js file from html files
-    angular.module('templates', []);
+  'use strict';
+  //Empty template module used in build process to generate js file from html files
+  angular.module('templates', []);
 
-    angular.module('mgAppCore', []);
+  angular.module('reobeAppCore', []);
 
-    angular.module('mgAppHome', ['mgAppCore']);
+  angular.module('reobeAppHome', ['reobeAppCore']);
 
-
-    //Main app
-    angular.module('mgApp', [
-        'templates',
-        'ui.router',
-        'pascalprecht.translate',
-        'ui.bootstrap',
-        'ngSanitize',
-        'mgAppHome'
-    ]);
-
-
-
+  //Main app
+  angular.module('reobeApp', [
+    'templates',
+    'ui.router',
+    'pascalprecht.translate',
+    'ui.bootstrap',
+    'ngSanitize',
+    'reobeAppHome'
+  ]);
 })();

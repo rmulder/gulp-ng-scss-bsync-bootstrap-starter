@@ -1,7 +1,7 @@
 (function () {
 
     'use strict';
-    angular.module('mgAppCore')
+    angular.module('reobeAppCore')
         .service('Utilities', utilities);
 
 

@@ -1,11 +1,11 @@
 {
-  "name": "abc-hr",
+  "name": "angular-gulp-bower",
   "version": "1.0.0",
-  "description": "ABC HR employee location finder",
+  "description": "Angular-Gulp-Bower sample project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rajendra M",
+  "author": "Robert Mulder",
   "devDependencies": {
     "bower": "~1.7.9",
     "browser-sync": "~2.12.8",

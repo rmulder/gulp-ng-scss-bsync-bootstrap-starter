@@ -7,15 +7,14 @@
      * @description A slick common header footer controller
      *
      */
-    angular.module('mgAppCore')
+    angular.module('reobeAppCore')
         .controller('HeaderFooterController', headerFooterController);
     
     headerFooterController.$inject = ['$scope', '$q'];
 
-    function headerFooterController() {
+    function headerFooterController($scope, $q) {
         var vm = this;
 
-        vm.appHomeTitle = 'Application home title';
-
+        vm.appHomeTitle = 'REOBE Home';
     }
 })();

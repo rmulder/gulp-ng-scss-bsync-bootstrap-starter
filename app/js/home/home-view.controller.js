@@ -1,21 +1,22 @@
 (function () {
-    'use strict';
+  'use strict';
 
-    /**
-     * @ngdoc function
-     * @name HomeViewController
-     * @description Home view controller
-     * # HomeViewController
-     *
-     */
-    angular.module('mgAppHome')
-        .controller('HomeViewController', homeController);
-    homeController.$inject = ['$scope', '$q'];
+  /**
+   * @ngdoc function
+   * @name HomeViewController
+   * @description Home view controller
+   * # HomeViewController
+   *
+   */
+  angular.module('reobeAppHome')
+      .controller('HomeViewController', homeController);
+  homeController.$inject = ['$scope', '$q'];
 
-    function homeController() {
-        var vm = this;
+  function homeController() {
+      var vm = this;
+      vm.appHomeTitle = 'Status Portal Home';
 
-        vm.appHomeTitle = 'Application home title';
-
-    }
+      vm.initJS = function () {};
+      vm.initJS();
+  }
 })();
